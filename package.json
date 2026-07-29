@@ -4,9 +4,9 @@
   "private": true,
   "description": "Decentralized community finance on the Stellar blockchain",
   "scripts": {
-    "dev": "docker-compose up",
-    "dev:backend": "cd backend && npm run dev",
-    "dev:frontend": "cd frontend && npm run dev",
+    "dev": "node init && docker-compose up",
+    "dev:backend": "node init && cd backend && npm run dev",
+    "dev:frontend": "node init && cd frontend && npm run dev",
     "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
     "lint": "cd backend && npm run lint && cd ../frontend && npm run lint",
     "type-check": "cd backend && npm run type-check && cd ../frontend && npm run type-check",
