@@ -1,0 +1,24 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "feature/db-status-command",
+    "fix/tokens-route-syntax-error",
+    "fix/tokens-route-syntax-error-v4",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "feature/db-status-command": "main",
+    "fix/tokens-route-syntax-error": "main",
+    "fix/tokens-route-syntax-error-v4": "fix/tokens-route-syntax-error",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "feature/db-status-command",
+    "fix/tokens-route-syntax-error",
+    "origin",
+    "fix/tokens-route-syntax-error-v4"
+  ]
+}
